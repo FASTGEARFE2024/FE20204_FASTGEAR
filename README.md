@@ -115,9 +115,11 @@ To go around the obstacles, our robot looks at x and y coordinates of the obstac
 
 
 # Team Photos
-![alt text](https://github.com/user-attachments/assets/9c349e07-cc1d-45dc-97f6-21b32d5b81e0)
+![alt text](https://github.com/user-attachments/assets/601c4a8b-9edf-4e55-9a91-7bce6154b8ab)
+
 ## (FUNNY)
-![alt text](https://github.com/user-attachments/assets/e24fc02d-2242-48b6-9809-e6fae7b184b4)
+![alt text](https://github.com/user-attachments/assets/eb73d4ad-773c-413c-bc0b-600fd81e9d27)
+
 # <hr/>
 
 # Videos
