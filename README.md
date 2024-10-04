@@ -22,9 +22,9 @@ CONTENT
 
 
 <h1 align = center> Future Engineers 2024 </h1>
-<h2 align = center> Team Name: ENGINEERINSIDE </h2>
-<h2 align = center> Team Members: Yiğit Kaan GÜLDAĞ, Boran ÇANLI </h2>
-<h2 align = center> Email: engineerinside.fe2024@outlook.com </h2>
+<h2 align = center> Team Name: FASTGEAR </h2>
+<h2 align = center> Team Members: Cem Onat KAYA, Kamil Poyraz UÇAR </h2>
+<h2 align = center> Email: fastgear.fe2024@gmail.com </h2>
 
 
 ![alt text](https://github.com/user-attachments/assets/5060cdea-c406-42fe-b1e8-d36608d55174)
@@ -58,20 +58,21 @@ We have a differential in the back of our robot to make turns smoother. If robot
 
 
 ### Weight distribution
-  Our robot weight is  a little behind the center so our robot has road grip and it doesn't slide.
+  Because of our motors and large wheels being behind the center, our robot weight is  a little behind the center, and our robots center of gravity is low. This allows our robot to not topple, be much more stabile and take the turns easier.
 
 
 
   
 ### Camera position
-  Our camera is positioned as high and far back as possible to enhance the view and manage obstacles effectively. It is also tilted slightly downward to monitor nearby blocks and improve obstacle handling.
+  Our camera is positioned as high and far back as possible. This allows our robot to have a much  bigger cone of vision. Because our robots cone of vision is larger, our robot can manage obstacles much more efficiently. It is also tilted slightly downward to monitor 
+  nearby blocks and improve obstacle handling.
 
 
 
   
 ### Motor selection
-  We have a choice between 2 types of LEGO motors: large motor and medium motor, the large motor is powerful but the speed is lower, the medium motor is not that powerful but have a great speed. Because the category needs speed not power, we chose that it would be better tochoose the medium motor type.
-  We thought that the mobilithe tahat 1 motor gives us may not be enough so we combined 2 with a differential.
+  We have a choice between 2 types of LEGO motors: large motor and medium motor, the large motor is powerful but the speed is lower, the medium motor is not that powerful but have a great speed. Because the category needs speed not power, we chose that it would be better to choose the medium motor type.
+  We thought that the mobility that 1 motor gives us may not be enough so we combined 2 with a differential.
 
 
 # <hr/>
@@ -92,15 +93,13 @@ We have a differential in the back of our robot to make turns smoother. If robot
 ## Sense Management
   We used the ultrasonic, color and gyro sensors of the LEGO EDUCATION MINDSTORMS EV3 Core Set for the sense management of the robot.
 
-  The ultrasonic sensors we used are very important on our open round codes to find the middle of the walls and stay there.
+  The ultrasonic sensors we used are very important on our open round codes ultrasonic sensors allow the robot to be equidestant from both walls and stay in the middle of the lane.
   Our gyro sensor is helping us calculate the error of the robots placement and fixing it.
-  The color sensors help us make the turns to finish the track and determine which way we are going to go.
-
+  The color sensors help us see the colored lines that are in 4 corners of the area. Through this we can understand which way our robot should go and our robot can finish the track without having issues.
 
 # <hr/>
 # Obstacle Management
-To go around the obstacles, know their x and y coordinates and know which color the obstacle is we used the PixyCam. The code uses the x and y coordinates of the obstacle according to where it is placed on the cam and the color learning ability helps us with the paths the robot should take.
-
+To go around the obstacles, our robot looks at x and y coordinates of the obstacles and looks ath the color of the obstacles. To do this we used the PixyCam. The code uses the x and y coordinates of the obstacle according to where it is placed on the cam and the color learning ability helps us with the paths the robot should take.
 
 ![alt text](https://github.com/user-attachments/assets/b257af2f-facd-4b6f-86b5-3247d9d6c7da)
 
@@ -132,11 +131,11 @@ WRO Future Engineer 2024: Future Inside Obstacle Course: https://www.youtube.com
 ### Building The Robot
  We built the robot with LEGO. For the motors, sensors and the EV3 programmable brick we used the LEGO MINDSTORMS set. For the rest of the robot we combined LEGO MINDSTORMS set with LEGO Spike Prime set.
 
- To process the colors of the obstacles we used the PixyCam. The camera is a powerful tool with I2C communication protocol. It can distinguish the colors and sizes of the obstacles. It also has a program (PixyMon v2) for the config of the Cam.
+ To process the colors of the obstacles we used the PixyCam. The camera is a powerful tool with I2C communication protocol. It can distinguish the colors ,sizes and x, y coordinates of the obstacles. It also has a program (PixyMon v2) for the config of the Cam.
 
 # <hr/>
 # 3D Model
-We used this 3D model for connect the PixyCam to our robot.
+We 3D printed this model for connect the PixyCam to our robot.
 
 ![0c16bcc67fb93e3b44f921102f7a36db_display_large](https://github.com/user-attachments/assets/dc579fcb-9b1f-4756-875f-1cb5b07d6da2)
 
