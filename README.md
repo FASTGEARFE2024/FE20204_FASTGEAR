@@ -96,7 +96,7 @@ We have a differential in the back of our robot. This allows our robot to distri
 
   The ultrasonic sensors we used are very important on our open round codes ultrasonic sensors allow the robot to be equidestant from both walls and stay in the middle of the lane.
   Our gyro sensor is helping us calculate the error of the robots placement and fixing it.
-  The color sensors help us see the colored lines that are in 4 corners of the area. Through this we can understand which way our robot should go and our robot can finish the track without having issues.
+  The color sensors help us see the colored lines that are in 4 corners of the area. Through this we can understand which way our robot should go, whether it should turn left or right and our robot can finish the track without having issues.
 
 # <hr/>
 # Obstacle Management
