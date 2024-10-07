@@ -50,7 +50,8 @@ CONTENT
 # Mobility Management
 
 ### Steering and differential design
-We have a differential in the back of our robot to make turns smoother. If robot turns one wheel will move slower than second and it reduces radius of the turn so our robot can turn more accurately. Our robot is controlled by steering and differantial mechs.
+We have a differential in the back of our robot. This allows our robot to distribute power to the wheels while enabling them to rotate at different speeds, particularly during turns to make turns smoother. This increases our robots stability, while also improving traction and handling. Our robot is controlled by steering and differantial mechs.
+
 
 <img width="629" alt="Ekran görüntüsü 2024-09-16 211717" src="https://github.com/user-attachments/assets/db58cb6f-72cc-42dd-8fcb-cdbeb753e668">
 <img width="633" alt="Ekran görüntüsü 2024-09-16 211859" src="https://github.com/user-attachments/assets/28826af2-b9b5-4f9f-a867-de64442156df">
