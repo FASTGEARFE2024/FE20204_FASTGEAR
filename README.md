@@ -80,7 +80,7 @@ We have a differential in the back of our robot. This allows our robot to distri
 
 
 # Power and Sense Management
-## Power management </br>
+## Power Management </br>
   The power source of our robot is the <a href="#">EV3 Programmable Brick</a>, it has a rechargable 10V Lithium Battery. EV3 P-Brick have 4 ports for motors and 4 ports for sensors. For the power consumption of motors and sensors: <a href="https://www.dexterindustries.com/ev3-current-consumption-measurement/">https://www.dexterindustries.com/ev3-current-consumption-measurement/</a>.
   <table>
 <tr>
@@ -100,9 +100,15 @@ We have a differential in the back of our robot. This allows our robot to distri
 
 # <hr/>
 # Obstacle Management
+
+## Open Race
+We first start by making our steering mechs angle 0. Through this we can make our robot start in a straight line. 
+# <hr/>
+## Obstacle Race
 To go around the obstacles, our robot looks at x and y coordinates of the obstacles and looks ath the color of the obstacles. To do this we used the PixyCam. The code uses the x and y coordinates of the obstacle according to where it is placed on the cam and the color learning ability helps us with the paths the robot should take.
 
 ![alt text](https://github.com/user-attachments/assets/b257af2f-facd-4b6f-86b5-3247d9d6c7da)
+
 
 # <hr/>
 # Robot Photos
