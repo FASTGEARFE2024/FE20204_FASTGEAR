@@ -103,7 +103,7 @@ We have a differential in the back of our robot. This allows our robot to distri
 
 ## Open Race
 We first start by making our steering mechs angle 0. Through this we can make our robot start in a straight line. 
-# <hr/>
+
 ## Obstacle Race
 To go around the obstacles, our robot looks at x and y coordinates of the obstacles and looks ath the color of the obstacles. To do this we used the PixyCam. The code uses the x and y coordinates of the obstacle according to where it is placed on the cam and the color learning ability helps us with the paths the robot should take.
 
