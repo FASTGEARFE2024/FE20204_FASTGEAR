@@ -27,9 +27,9 @@ CONTENT
 <h2 align = center> Email: fastgear.fe2024@gmail.com </h2>
 
 
-![alt text](https://github.com/user-attachments/assets/5060cdea-c406-42fe-b1e8-d36608d55174)
-![alt text](https://github.com/user-attachments/assets/7cc4ed83-0469-44c3-b7fe-9b536c3d4e43)
-
+<p align="center">
+  <img width="500" height="500" src="https://github.com/user-attachments/assets/48b12469-f676-4d16-961a-683ca4692622">
+</p>
 
 # <hr/>
 
