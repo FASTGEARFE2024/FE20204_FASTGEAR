@@ -105,7 +105,7 @@ To go around the obstacles, our robot looks at x and y coordinates of the obstac
 
 ![alt text](https://github.com/user-attachments/assets/b257af2f-facd-4b6f-86b5-3247d9d6c7da)
 ## Open Race
-We first start by making our steering mechs angle 0. Through this we can make our robot start in a straight line, and then we reset our motor rotation and gyro sensor's value. The robot starts to move. When he reaches the lines at the corners of the area, Through its color sensor, it can understand whether to turn clockwise or counterclockwise. Sometimes color sensor detects the color in different values. Because of this we made it so; If our color sensor detects:
+We first start by making our steering mechs angle 0. Through this we can make our robot start in a straight line, and then we reset our motor rotation and gyro sensor's value. The robot starts to move. When he reaches the lines at the corners of the area, Through its color sensor, it can understand whether to turn clockwise or counterclockwise. Sometimes color sensor detects wrong color values. Because of this we made it so if our color sensor detects:
 Red => it turns clockwise
 Yellow => it turns clockwise
 Brown => it turns clockwise
