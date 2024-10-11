@@ -111,6 +111,7 @@ Yellow => it turns clockwise
 Brown => it turns clockwise
 Blue => it turns counterclockwise
 Black => it turns counterclockwise
+After our robot turns, code increases the variable called "rounds" by 1. When this variable reaches 12, this means our robot finished 3 rounds. While our robot is not detecting any lines, It tries to center the lane. It does this using the "rotation" variable. Rotation variable increases by 30 if our robot is closer to the wall than 20 cm. if rotation variable increase, our robot starts to move away from the wall. When the rounds reaches 12, Our robot increases its speed and turns to the lane for 3 rotations, this allows our robot to finish in the lane.
 
 ## Obstacle Race
 
