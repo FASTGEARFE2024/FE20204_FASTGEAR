@@ -106,11 +106,17 @@ To go around the obstacles, our robot looks at x and y coordinates of the obstac
 ![alt text](https://github.com/user-attachments/assets/b257af2f-facd-4b6f-86b5-3247d9d6c7da)
 ## Open Race
 We first start by making our steering mechs angle 0. Through this we can make our robot start in a straight line, and then we reset our motor rotation and gyro sensor's value. The robot starts to move. When he reaches the lines at the corners of the area, Through its color sensor, it can understand whether to turn clockwise or counterclockwise. Sometimes color sensor detects wrong color values. Because of this we made it so if our color sensor detects:
+
 Red => it turns clockwise
+
 Yellow => it turns clockwise
+
 Brown => it turns clockwise
+
 Blue => it turns counterclockwise
+
 Black => it turns counterclockwise
+
 After our robot turns, code increases the variable called "rounds" by 1. When this variable reaches 12, this means our robot finished 3 rounds. While our robot is not detecting any lines, It tries to center the lane. It does this using the "rotation" variable. Rotation variable increases by 30 if our robot is closer to the wall than 20 cm. if rotation variable increase, our robot starts to move away from the wall. When the rounds reaches 12, Our robot increases its speed and turns to the lane for 3 rotations, this allows our robot to finish in the lane.
 
 ## Obstacle Race
