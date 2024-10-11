@@ -101,13 +101,19 @@ We have a differential in the back of our robot. This allows our robot to distri
 # <hr/>
 # Obstacle Management
 
-## Open Race
-We first start by making our steering mechs angle 0. Through this we can make our robot start in a straight line. 
-
-## Obstacle Race
 To go around the obstacles, our robot looks at x and y coordinates of the obstacles and looks ath the color of the obstacles. To do this we used the PixyCam. The code uses the x and y coordinates of the obstacle according to where it is placed on the cam and the color learning ability helps us with the paths the robot should take.
 
 ![alt text](https://github.com/user-attachments/assets/b257af2f-facd-4b6f-86b5-3247d9d6c7da)
+## Open Race
+We first start by making our steering mechs angle 0. Through this we can make our robot start in a straight line, and then we reset our motor rotation and gyro sensor's value. The robot starts to move. When he reaches the lines at the corners of the area, Through its color sensor, it can understand whether to turn clockwise or counterclockwise. Sometimes color sensor detects the color in different values. Because of this we made it so; If our color sensor detects:
+Red => it turns clockwise
+Yellow => it turns clockwise
+Brown => it turns clockwise
+Blue => it turns counterclockwise
+Black => it turns counterclockwise
+
+## Obstacle Race
+
 
 
 # <hr/>
