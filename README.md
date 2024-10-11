@@ -121,7 +121,7 @@ After our robot turns, code increases the variable called "rounds" by 1. When th
 
 ## Obstacle Race
 The code for the obstacle race is mostly the same as the code we used in open race. But there are differences. First of all, because we are trying not to hit obstacles, We sacrifice the robots speed in order to navigate around the obstacles better.
-Second of all, before checking if there are any colored lines, our robot uses the pixycam to see if there are any obstacles. If there are, our code uses PID to center the obstacle, Because we center the obstacle pixycam will be able to identify the color of the obstacle without issues. After pixycam identifies the color, if the color is red: It turns right. If the color is green: It turns left. Robot continues turning until it cant see the color that it saw. While all of this is happening, our periodically robot checks if it detects any colored lines.
+Second of all, before checking if there are any colored lines, our robot uses the pixycam to see if there are any obstacles. If there are, our code uses PID to center the obstacle, Because we center the obstacle pixycam will be able to identify the color of the obstacle without issues. After pixycam identifies the color, if the color is red: It turns right. If the color is green: It turns left. Robot continues turning until it cant see the color that it saw. While all of this is happening, our robot periodically checks if it detects any colored lines.
 
 
 # <hr/>
